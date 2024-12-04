@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="Browser" value="chrome"></parameter>
+	<parameter name="username" value="manaliukey70@gmail.com"></parameter>
+	<parameter name="passwors" value="123456"></parameter>
+	<parameter name="url" value="https://demowebshop.tricentris.com"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Basic.ReadFromXml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
